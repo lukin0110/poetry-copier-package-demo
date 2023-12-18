@@ -1,0 +1,11 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 2260f05
+_src_path: git@github.com:lukin0110/poetry-copier.git
+ci: github
+description: An example of a Python package that was scaffolded with Poetry Copier
+name: Marty McFly
+package_type: package
+repository_url: https://github.com/lukin0110/poetry-copier-package-demo
+use_makefile: true
+use_private_package_repository: false
+use_pydantic: true
