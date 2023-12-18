@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: 2260f05
+_commit: a2ec9fc
 _src_path: git@github.com:lukin0110/poetry-copier.git
 ci: github
 description: An example of a Python package that was scaffolded with Poetry Copier
