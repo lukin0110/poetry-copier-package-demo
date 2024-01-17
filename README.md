@@ -1,8 +1,18 @@
+[![Lint and Test](https://github.com/lukin0110/poetry-copier-package-demo/actions/workflows/test.yml/badge.svg)](https://github.com/lukin0110/poetry-copier-package-demo/actions)
+
 # Marty McFly
 
 An example of a Python package that was scaffolded with Poetry Copier.
 
 ## 🚀 Using
+
+To install this package, run:
+```bash
+pip install marty_mcfly
+```
+
+
+## 🧑‍💻 Contributing
 
 <details>
 <summary>Prerequisites</summary>
@@ -15,73 +25,38 @@ An example of a Python package that was scaffolded with Poetry Copier.
 
 </details>
 
+<details>
+<summary>2. Install VS Code</summary>
+
+Go to [VS Code](https://code.visualstudio.com/), download and install VS Code.
+</details>
+
 
 </details>
 
-To install this package, run:
-```bash
-pip install marty_mcfly
-```
-
-
-## ✨ Setup VSCode
-
-Open this repo with VSCode, *build DevContainer* and *Dev Containers: Reopen in Container*.
-
-## ✨ Setup PyCharm
-
-Open this repo with PyCharm, and [configure Docker Compose as a remote interpreter](https://www.jetbrains.com/help/pycharm/using-docker-compose-as-a-remote-interpreter.html#docker-compose-remote) with the `dev` service.
-
-## 🧑‍💻 Contributing
+#### 1. Open DevContainer with VS Code
+Open this repository with VS Code, and run <kbd>Ctrl/⌘</kbd> + <kbd>⇧</kbd> + <kbd>P</kbd> → _Dev Containers: Reopen in Container_.
 
 The following commands can be used inside a DevContainer.
 
-#### Run linters
+#### 2. Run linters
 ```bash
 poe lint
 ```
 
-#### Run tests
+#### 3. Run tests
 ```bash
 poe test
 ```
 
-#### Update poetry lock file
+#### 4. Update poetry lock file
 ```bash
 poetry lock --no-update
 ```
 
-<details>
-<summary>Outside a DevContainer</summary>
-
-1. Run linters
-```bash
-docker compose run devcontainer poe lint
-```
-2. Run tests
-```bash
-docker compose run devcontainer poe test
-```
-3. Update poetry lock file
-```bash
-docker compose run devcontainer poetry lock --no-update
-# Update the docker image with the new lock file
-docker compose build
-```
-4. Open a shell in docker
-```bash
-docker compose run devcontainer
-```
-</details>
-<details>
-<summary>Shortcuts outside a DevContainer</summary>
-
-1. `make lint`
-2. `make test`
-3. `make lock`
-4. `make shell`
-</details>
+---
+See how to develop with [PyCharm or any other IDE](https://github.com/lukin0110/poetry-copier/tree/main/docs/ide.md).
 
 ---
-️⚡️ Scaffolded with [Poetry Copier](https://github.com/lukin0110/poetry-copier/)\
+️⚡️ Scaffolded with [Poetry Copier](https://github.com/lukin0110/poetry-copier/).\
 🛠️ [Open an issue](https://github.com/lukin0110/poetry-copier/issues/new) if you have any questions or suggestions.
